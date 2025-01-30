@@ -15,4 +15,11 @@ navLinks.forEach(link => {
     });
 });
 
+document.getElementById("download-curriculo").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "./assets/curriculo/CURRICULO-FRONTEND.pdf"; // Substitua pelo caminho correto
+    link.download = "Curriculo-Maylon.pdf";
+    link.click();
+  });
+
 });
