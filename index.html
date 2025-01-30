@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav__esquerda">
+            <div class="logo">
+                <h1>M</h1>
+            </div>
+        </div>
+
+        <!-- Botão Hamburguer -->
+        <button class="menu-toggle">&#9776;</button>
+
+        <div class="nav__direita">
+            <a href="#home"><button>Home</button></a>
+            <a href="#projetos"><button>Projetos</button></a>
+            <a href="#contatos"><button>Contato</button></a>
+            <a href="https://github.com/maylon-fernandes" target="_blank" id="github__link">
+                <button id="button__github"><i class="ri-github-fill"></i></button>
+            </a>
+        </div>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero__esquerda">
+            <div class="hero__container">
+                <p>Olá, meu nome é Maylon Fernandes.</p>
+                <div class="hero__painel">
+                    <span>Sou Dev Frontend</span>
+                </div>
+                <div class="hero__painel2">
+                    <p>e estudante de</p>
+                    <span>Design UI/UX</span>
+                    <strong>que combina criatividade e código para construir interfaces intuitivas e
+                        impactantes.</strong>
+                </div>
+                <div class="hero__button">
+                    <a href="http://">
+                        <button>
+                            Download Currículo
+                            <i class="ri-download-line"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__direita">
+            <div class="hero__img">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="tecnologias" id="tecnologias">
+        <div class="tecnologias__card html">
+            <i class="ri-html5-fill"></i>
+            <p>HTML</p>
+        </div>
+        <div class="tecnologias__card css">
+            <i class="ri-css3-fill"></i>
+            <p>CSS</p>
+        </div>
+        <div class="tecnologias__card javascript">
+            <i class="ri-javascript-fill"></i>
+            <p>JavaScript</p>
+        </div>
+        <div class="tecnologias__card figma">
+            <i class="ri-figma-fill"></i>
+            <p>Figma</p>
+        </div>
+        <div class="tecnologias__card tailwind">
+            <i class="ri-tailwind-css-fill"></i>
+            <p>TailwindCSS</p>
+        </div>
+        <div class="tecnologias__card bootstrap">
+            <i class="ri-bootstrap-fill"></i>
+            <p>Bootstrap</p>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div class="projetos__titulo">
+            <h1>Projetos</h1>
+        </div>
+        <div class="projetos__projetos">
+            <div class="projetos__nome">
+                <h1>Patrify</h1>
+                <p>Gestão de bens e ativos</p>
+            </div>
+            <div class="projetos__desc">
+                <i class="ri-angularjs-fill" id="angular"></i>
+                <i class="ri-tailwind-css-fill" id="tailwind"></i>
+                <i class="ri-figma-fill" id="figma"></i>
+            </div>
+            <div class="projetos__link">
+                <a href="https://github.com/maylon-fernandes/patrify-angular">
+                    <button>
+                        <i class="ri-github-fill"></i>
+                        GitHub
+                    </button>
+                </a>
+                <a href="https://patrify.vercel.app/patrify">
+                    <button>
+                        <i class="ri-git-branch-fill"></i>
+                        Projeto
+                    </button>
+                </a>
+                <a href="https://www.figma.com/design/ItZYNCfeFIFVzOFKIOxco1/TCC---Patrify?node-id=0-1&t=RHXkFg152jPJwoUR-1" target="_blank">
+                    <button>
+                        <i class="ri-figma-fill"></i>
+                        Figma
+                    </button>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contatos" id="contatos">
+        <h1>Contatos</h1>
+        <p>Ficou interssado? Me envie uma mensagem!</p>
+        <div class="contatos__contatos">
+            <a href="mailto:maylonfernandes2005@gmail.com" target="_blank">
+                <i class="ri-mail-fill" id="contato__gmail"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/maylonfernandes/" target="_blank">
+                <i class="ri-linkedin-fill" id="contato__linkedin"></i>
+            </a>
+            <a href="https://wa.me/5512988933469" target="_blank">
+                <i class="ri-whatsapp-fill" id="contato__whatsapp"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="./assets/scripts/scroll.js"></script>
+</body>
+
+</html>
